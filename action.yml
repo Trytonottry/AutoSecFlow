@@ -1,6 +1,7 @@
 name: AutoSecFlow
 description: One-click security pipeline for GitHub Actions
-branding.icon: shield (🛡️)
+branding.icon: shield
+color: red
 inputs:
   scanners:
     description: comma-separated list of scanners
