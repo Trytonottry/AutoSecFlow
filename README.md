@@ -20,17 +20,17 @@
 ## 🚀 Quick Start
 ### GitHub Action
 ```yaml
-- uses: вашлогин/AutoSecFlow@v1
+- uses: Trytonottry/AutoSecFlow@v1
   with:
     scanners: "trivy,semgrep"
 
 ### API
 curl -X POST https://api.autosecflow.dev/scan \
   -H "Content-Type: application/json" \
-  -d '{"repo_url":"https://github.com/owner/repo","scanners":["trivy"]}'
+  -d '{"repo_url":"https://github.com/Trytonottry/repo","scanners":["trivy"]}'
 
 ### Docker
-git clone https://github.com/вашлогин/AutoSecFlow && cd AutoSecFlow
+git clone https://github.com/Trytonottry/AutoSecFlow && cd AutoSecFlow
 docker-compose up
 
 ## 📄 License
