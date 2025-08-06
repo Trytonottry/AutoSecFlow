@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "AutoSecFlow 1-Click",
+  "version": "1.0",
+  "description": "Scan any public repo with AutoSecFlow",
+  "permissions": ["activeTab"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": { "48": "icons/48.png", "128": "icons/128.png" }
+  }
+}

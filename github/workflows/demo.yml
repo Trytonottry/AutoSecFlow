@@ -1,0 +1,21 @@
+name: AutoSecFlow-Demo
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+      security-events: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run AutoSecFlow
+        uses: ./
+        with:
+          scanners: "trivy,semgrep,truffleHog"
+          token: ${{ github.token }}

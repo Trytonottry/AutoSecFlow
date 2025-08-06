@@ -1,0 +1,12 @@
+# 🔒 Security Report – {{ date.strftime('%Y-%m-%d %H:%M UTC') }}
+
+| Tool | Issues |
+|------|--------|
+{% for f in findings %}
+| {{ f.get("tool", "unknown") }} | {{ f.get("results", []) | length }} |
+{% endfor %}
+
+<details><summary>Raw JSON</summary>
+
+```json
+{{ findings | tojson(indent=2) }}

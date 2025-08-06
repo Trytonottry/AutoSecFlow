@@ -1,0 +1,19 @@
+name: AutoSecFlow
+description: One-click security pipeline for GitHub Actions
+inputs:
+  scanners:
+    description: comma-separated list of scanners
+    required: false
+    default: "trivy"
+  token:
+    description: GitHub token
+    required: true
+runs:
+  using: composite
+  steps:
+    - shell: bash
+      run: |
+        pip install -r ${{ github.action_path }}/src/requirements.txt
+        python ${{ github.action_path }}/src/autosecflow.py \
+          --scanners "${{ inputs.scanners }}" \
+          --token "${{ inputs.token }}"
