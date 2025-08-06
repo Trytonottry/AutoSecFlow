@@ -23,7 +23,7 @@
 - uses: вашлогин/AutoSecFlow@v1
   with:
     scanners: "trivy,semgrep"
-
+```
 ### API
 curl -X POST https://api.autosecflow.dev/scan \
   -H "Content-Type: application/json" \
