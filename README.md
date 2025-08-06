@@ -3,7 +3,7 @@
 
 ![demo](https://github.com/вашлогин/AutoSecFlow/raw/main/docs/demo.gif)
 
-[![GitHub release](https://img.shields.io/github/v/release/вашлогин/AutoSecFlow)](https://github.com/вашлогин/AutoSecFlow/releases)
+[![GitHub release](https://img.shields.io/github/v/release/Trytonottry/AutoSecFlow)](https://github.com/Trytonottry/AutoSecFlow/releases)
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/awesome-selfhosted/awesome-selfhosted)
 
 ---
