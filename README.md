@@ -25,13 +25,17 @@
     scanners: "trivy,semgrep"
 ```
 ### API
+```bash
 curl -X POST https://api.autosecflow.dev/scan \
   -H "Content-Type: application/json" \
   -d '{"repo_url":"https://github.com/Trytonottry/repo","scanners":["trivy"]}'
+```
 
 ### Docker
+```bash
 git clone https://github.com/Trytonottry/AutoSecFlow && cd AutoSecFlow
 docker-compose up
+```
 
 ## 📄 License
 MIT © TryToNotTry
