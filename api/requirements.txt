@@ -2,3 +2,7 @@ fastapi
 uvicorn 
 jinja2 
 pyyaml
+pydantic
+httpx
+pytest
+flake8
