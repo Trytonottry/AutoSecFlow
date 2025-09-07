@@ -5,7 +5,9 @@
 
 [![GitHub release](https://img.shields.io/github/v/release/Trytonottry/AutoSecFlow)](https://github.com/Trytonottry/AutoSecFlow/releases)
 [![Awesome](https://awesome.re/badge.svg)](https://github.com/awesome-selfhosted/awesome-selfhosted)
-
+[![Build & Lint](https://img.shields.io/badge/build-pending-lightgrey)](https://github.com/<you>/AutoSecFlow/actions)
+[![Coverage](https://img.shields.io/badge/coverage-unknown-lightgrey)](https://github.com/<you>/AutoSecFlow)
+[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 ---
 
 ## 🪄 Features
